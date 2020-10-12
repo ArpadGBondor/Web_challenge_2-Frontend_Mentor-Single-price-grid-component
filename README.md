@@ -1,3 +1,7 @@
+# [My Solution](https://arpadgbondor.github.io/Web_challenge_2-Frontend_Mentor-Single-price-grid-component/)
+
+------------------------------
+
 # Frontend Mentor - Single Price Grid Component
 
 ![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
