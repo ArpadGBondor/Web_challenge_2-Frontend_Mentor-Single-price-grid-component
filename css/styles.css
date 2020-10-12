@@ -1,0 +1,134 @@
+body{
+  background-color: var(--custom-light-gray);
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+}
+
+.grid-component-content{
+  min-height: 100vh;
+  max-width: 705px;
+  margin: 0 auto;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-padding{
+  padding: 1.4rem;
+}
+
+/* Guarantee Section */
+.guarantee-section{
+  background-color: white;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  }
+
+.guarantee-title-font{
+  color: var(--custom-cyan);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.guarantee-subtitle-font{
+  color: var(--custom-bright-yellow);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.guarantee-text-font{
+  color: var(--custom-grayish-blue);
+  font-size: 14px;
+}
+
+/* Subscription Section */
+.subscription-section{
+  background-color: var(--custom-cyan);
+  color: white;
+}
+
+.subscription-title-font{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.subscription-time-font{
+  color: var(--trans-white);
+  margin-bottom: 0;
+  vertical-align: middle;
+
+}
+
+.subscription-price-font{
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 0.75rem;
+  vertical-align: middle;
+}
+
+.subscription-text-font{
+  font-size: 15px;
+}
+
+.sign-up-button{
+  background-color: var(--custom-bright-yellow);
+  color: white;
+  display: block;
+  height: 3rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+/* Why us? Section */
+.why-us-section{
+  background-color: var(--custom-light-cyan);
+  color: var(--custom-light-gray);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.why-us-title-font{
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.why-us-text-font{
+  font-size: 14px;
+}
+
+/* Footer */
+.attribution { font-size: 11px; text-align: center; margin: 0;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Tablet size */
+@media screen and (min-width: 576px) {
+  .subscription-section{
+    border-bottom-left-radius: 0.5rem;
+  }
+  .why-us-section{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0.5rem;
+  }
+}
+
+/* Desktop size */
+@media screen and (min-width: 768px) {
+  .section-padding{
+    padding: 2rem 2.5rem 2rem 2.5rem;
+  }
+
+  .guarantee-title-font{
+    font-size: 24px;
+  }
+
+  .guarantee-subtitle-font{
+    font-size: 18px;
+  }
+
+  .guarantee-text-font{
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,20 @@
+:root{
+  /* Primary */
+  --custom-cyan: hsl(179, 62%, 43%);
+  --custom-light-cyan: hsl(179, 50%, 55%);
+  --custom-bright-yellow: hsl(71, 73%, 54%);
+  /* Neutral */
+  --custom-light-gray: hsl(204, 43%, 93%);
+  --custom-grayish-blue: hsl(218, 22%, 67%);
+  --trans-white: rgba(255, 255, 255, 0.7);
+}
+
+/* ### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%) */
