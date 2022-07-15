@@ -4,7 +4,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ## The challenge
 
-![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
 
 Your users should be able to:
 
